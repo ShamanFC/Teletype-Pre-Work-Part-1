@@ -66,6 +66,19 @@ h1 {
 	margin-left: 85%
 }
 
+#progressMeter {
+	margin-top: 3px;
+	height: 12px;
+	border: 1px solid #eaeaea;
+	background-color: #FCFCFC;
+}
+
+#progressBar {
+	background-color: #EF5F3C;
+	height: 10px;
+	width: 75%;
+}
+
 em {
 	color: #20A1D4;
 }
@@ -74,7 +87,6 @@ em {
 	color: #777;
 }
 
-timeleft {
+orange {
 	color: #EF5F3C;
-	font-weight: bolder;
 }
