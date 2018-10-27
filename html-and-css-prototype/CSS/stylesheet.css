@@ -67,16 +67,25 @@ h1 {
 }
 
 #progressMeter {
-	margin-top: 3px;
 	height: 12px;
-	border: 1px solid #eaeaea;
-	background-color: #FCFCFC;
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #eaeaea;
 }
 
 #progressBar {
 	background-color: #EF5F3C;
-	height: 10px;
+	height: 100%;
 	width: 75%;
+}
+
+#bodyBox {
+	border: 1px solid #eaeaea;
+	margin-top: 3px;
+	font-size: 0.9em;
+}
+
+#bodyBox p {
+	padding: 3% 7%;
 }
 
 em {
