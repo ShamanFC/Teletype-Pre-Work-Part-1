@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>HTML/CSS Prototype</title>
     <link rel="stylesheet" href="CSS/stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -23,21 +22,23 @@
         <div id="progressMeter">
           <div id="progressBar"></div>
         </div>
-        
+
         <p><orange><b>Only 3 days left</b></orange> to fund this project.</p>
 
         <p>Join the <strong>42</strong> other donors who have already supported this project. Every dollar helps.</p>
 
         <form id="donationForm" method="post">
-          <input id="donationAmount" type="text" value="$ 50">
-          <input type="submit" value="Give Now">
+          <span class="input-dollar left">
+            <input type="text" value="">
+          </span>
+          <input  type="submit" value="Give Now">
         </form>
 
-        <p> <em>Why give $50?</a></p>
+        <p><em>Why give $50?</em></p>
       </div>
 
         <button type="button" name="saveButton">Save for later</button>
-        <button type="button" name="socialButton">Tell your friends</button>
+        <button id="socialButton" type="button" name="socialButton">Tell your friends</button>
 
     </div>
 

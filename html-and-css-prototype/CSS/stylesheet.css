@@ -42,10 +42,9 @@ h1 {
 
 /* Your CSS code goes here */
 #wrapper {
-	position: absolute;
-	width: 20%;
-	top: 50%;
-	left: 40%;
+	position: relative;
+	width: 265px;
+	margin: auto;
 	/* border: 1px red dashed; */
 }
 
@@ -88,6 +87,44 @@ h1 {
 	padding: 3% 7%;
 }
 
+#donationForm {
+	padding: 3% 7%;
+	width: 100%;
+}
+
+input[type=submit] {
+	border: none;
+	background-color: #1CBC2C;
+	color: white;
+	font-weight: bold;
+	float: right;
+}
+
+input[type=text] {
+
+}
+
+
+input {
+	width: 47%;
+	height: 45px;
+	border-radius: 3px;
+	margin: auto;
+}
+
+button {
+	border: 1px solid #eaeaea;
+	height: 35px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FAFAFA;
+	color: #777;
+	width: 47%;
+	font-size: 0.8em;
+	margin-top: 12px;
+	border-radius: 3px;
+}
+
 em {
 	color: #20A1D4;
 }
@@ -98,4 +135,31 @@ em {
 
 orange {
 	color: #EF5F3C;
+}
+
+#socialButton {
+float: right;
+}
+.input-dollar {
+		position: relative;
+}
+.input-dollar.left input {
+		padding-left: 18px;
+
+		border-style:solid;
+		border: 1px solid #eaeaea;
+		font-weight: bold;
+		margin-left: 4px;
+		font-size: 1.1em;
+	}
+.input-dollar:before {
+		position: absolute;
+		top: -3px;
+		content:"$";
+		color: #777;
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+.input-dollar.left:before {
+		left: 10px;
 }
